@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 60px;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 15px 15px 5px ;
+}
+img{
+    border-radius: 100%;
+    border: 2px solid black;
+}
+body{
+    background-color: #b4dfda;
+    font-family: 'Fira Sans', sans-serif;
+}
+header{
+     padding: 8px;
+    background-color: #BFBFBF;
+    display: flex;
+}
+header table{
+    margin-left: 2%;
+    margin-top: 50px;
+}
+img{
+    border: 1px solid black;
+    width: 200px;
+}
+#dec{
+    text-align: right;
+    margin-right: 20%;
+}
+#statement{
+   
+    margin-left: 17%;
+}
+.footer{
+    background-color: #717a79;
+    grid-column: span 2;
+    padding: 10px;
+    color: white;
+}
+.skills{
+   
+    background-color: #BFBFBF;
+    padding: 20px;
+   
+}
+.two{
+   
+    background-color: #BFBFBF;
+    padding:3px;
+    padding-top: 20px;
+   
+}
+hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+.personaldetais{
+    margin: 10px;
+}
+
+.skills{
+    padding: 10px;
+    background-color: #BFBFBF;
+}
+.skills ul{
+    margin: 10px;
+    padding-left: 35px;
+   
+}
+.Education{
+    background-color: #BFBFBF;
+    padding: 10px;
+}
+.Education td{
+    padding: 10px;
+}
+.Education table{
+    margin-top: 5px;
+}
+.certifications{
+    padding: 15px;
+    background-color: #BFBFBF;
+}
+.area{
+    padding: 10px;
+    background-color: #BFBFBF;
+}
+.area ul li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+th{
+    text-align: left;
+    padding: 5px;
+}
+p{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+svg{
+    margin-right: 2px;
+}
+th:hover{
+    text-decoration: underline;
+}
+p:hover{
+    text-decoration: underline;
+}
